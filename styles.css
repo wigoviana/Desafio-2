@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    color: #5D5D7D;
+}
+.boxcenter {
+    height: 100vh;
+    width:  100vw;
+}
+.box-left {
+    display: inline-block;
+    width: 60%;
+    padding-left: 100px;
+    margin-top: 25%;
+}
+.box-higth {
+    display: inline-block;
+    background: rgba(93,93,125,0.16);
+    width: 529px;
+    height: 901px;
+    position: absolute;
+    margin-right: 41px;
+}
+img {
+    position: relative;
+    width: 456px;
+    height: 561.95px;
+    right: 152px;
+    top: 25%;
+}
+a {
+    margin-right: 41px;
+}
+header {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+h1 {
+    width: 368px;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px; /* 114.286% */
+   
+}
+p {
+    width: 540px;
+    font-weight: 400;
+    line-height: 48px; /* 171.429% */
+    margin-top: 15px;
+    opacity: 0.6;
+} 
+.button {
+    background:  #9499EA;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 269px;
+    height: 62px;
+    color: #FFF;
+    font-size: 24px;
+}
+
+a:nth-child(2) {
+    color:#9499EA;
+}
+button:active {
+    color: blue;
+}
+button:hover{
+    color: blue;
+}
+
+@media screen and (max-width: 900px) {
+    .box-left {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 50%;
+    }
+    .box-higth {
+        display: block;
+        width: 100%;
+        height: auto;
+        display: block;
+        position: static;
+        
+    }
+    img {
+        position: static;
+        max-width: 90%;
+        padding: 45px 51px;
+        height: auto;
+        
+        
+    }
+    header {
+        display: none;
+    }
+    h1 {
+        width: auto;
+        font-size: 36px;
+        text-align: center;
+        margin: 50px 50px 0 50px;
+
+
+    }
+    p {
+        width: auto;
+        font-size: 14px;
+        text-align: center;
+        line-height: 24px;
+        margin: 15px 50px;
+    }
+    .button {
+        width: 269px;
+        height: 62px;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
