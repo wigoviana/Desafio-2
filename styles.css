@@ -67,6 +67,7 @@ p {
 
 a:nth-child(2) {
     color:#9499EA;
+    opacity: 0.5;
 }
 button:active {
     color: blue;
